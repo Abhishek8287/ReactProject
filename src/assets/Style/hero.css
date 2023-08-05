@@ -1,0 +1,52 @@
+.hero {
+  width: 100%;
+  height: calc(100vh - 72px);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.heroinfo {
+  width: 40%;
+  height: 70%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 900;
+  word-spacing: 1px;
+  line-height: 2cm;
+}
+
+p {
+  font-weight: 500px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.buttons {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttons > button {
+  border-radius: 5px;
+  width: auto;
+}
+
+.logos {
+  width: 30%;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.logos:hover {
+  cursor: pointer;
+}
